@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(211, 205, 205);
+   
+}
+li {
+    list-style: none;
+}
+ a{
+    text-decoration: none; 
+ }
+.menuparent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    width: 1500px;
+    margin: auto;
+}
+.menubar ul{
+    display: flex;
+    gap: 60px;
+}
+.menubar ul li a{
+   
+    font-size: 30px;
+   
+   
+
+}
+nav{
+    padding: 0px;
+}
+.menubutton button{
+    font-size: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: blue;
+    padding: 4px 9px;
+    color: whitesmoke;
+
+}
+a:link{
+    color: red;
+}
+a:hover{
+    color:rgb(35, 9, 151) ;
+}
+a:visited{
+    color: rgb(29, 161, 47);
+}
+a:active{
+    color: cyan;
+}
+.logininfo{
+    position: absolute;
+    left: 38%;
+    bottom: 10%;
+    font-size: 30px;
+    height: 100px;
+    width: 400px;
+
+}
+.logininfo button{
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 2px 130px;
+}
+input[type="text"]:focus{
+  background-color: rgb(6, 27, 145);
+
+  /* height: 30px;
+  width: 200px; */
+  
+}
+input{
+    position: absolute;
+    left: 0%;
+    height: 40px;
+    width: 320px;
+    border: 2px solid rgb(1, 2, 17);
+    color: white;
+    font-size: 30px;
+}
+.aboutinfo{
+   
+ font-size:20px;
+ display: flex;
+align-items: center;
+padding-top: 30px;
+}
+.write{
+    padding-left: 222px ;
+}
+.write :first-child{
+    color: blue;
+}
+.write :last-child{
+    color: rgb(197, 13, 114);
+}
