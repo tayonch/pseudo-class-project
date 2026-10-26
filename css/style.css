@@ -104,3 +104,6 @@ padding-top: 30px;
 .write :last-child{
     color: rgb(197, 13, 114);
 }
+q:lang(cotetion){
+    quotes: "#" "#";
+}
